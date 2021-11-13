@@ -15,7 +15,6 @@
     z-index: 999;
 }
 .inner-width {
-    width: 100%;
     max-width: 1300px;
     margin: auto;
     padding: 0 40px;
@@ -25,7 +24,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
 }
 .logo {
     background: url(../image/logo.png);
@@ -74,7 +72,7 @@
 }
 
 #home {
-    height: 100vh;
+    height: 100%;
     min-width: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -443,7 +441,6 @@ section {
 @media screen and (max-width: 600px){
     .inner-width {
         padding: 0 20px;
-        width: 100%;
     }
     .skill {
         width: 100%;
