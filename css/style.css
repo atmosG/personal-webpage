@@ -443,6 +443,7 @@ section {
 @media screen and (max-width: 600px){
     .inner-width {
         padding: 0 20px;
+        width: 100%;
     }
     .skill {
         width: 100%;
