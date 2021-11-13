@@ -73,7 +73,6 @@
 
 #home {
     height: 100%;
-    min-width: 500px;
     background-size: cover;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/bg_img.jpg);
