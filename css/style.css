@@ -442,7 +442,32 @@ section {
     background-color: #48dbfb;
     color: #fff;
 }
-
+footer {
+    background : url(../image/bg_img.jpg) no-repeat center;
+    color: #353b48;
+    text-align: center;
+    padding: 80px 0;
+}
+.copyright {
+    margin-bottom: 20px;
+}
+.copyright a {
+    color: #487eb0;
+    font-weight: 500;
+}
+.goTop {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #48dbfb;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+    color: #fff;
+}
 @media screen and (max-width: 980px){
     .menu-toggler {
         display: block;
@@ -513,6 +538,3 @@ section {
         width: 100%;
     }
 }
-
-
-
