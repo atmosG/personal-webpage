@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: #48dbfb;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #353b48;
+}
+
 .navbar {
     width: 100%;
     background-color: transparent;
@@ -544,6 +559,9 @@ footer {
     }
     .contact-form .nameZone,
     .contact-form .emailZone {
+        width: 100%;
+    }
+    .contact-form .btn {
         width: 100%;
     }
 }
